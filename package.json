@@ -1,0 +1,18 @@
+{
+  "publishConfig": {
+    "@luxdave:registry": "https://npm.pkg.github.com"
+  },
+  "name": "exercise-pblish-package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "luxdave",
+  "license": "ISC",
+  "description": "This exercise checks your ability to publish to a GitHub Packages registry. It is automatically graded via a workflow once you have completed the instructions.",
+  "repository": {
+    "type": "git",
+    "url": "exercise-publish-package"
+  }
+}
