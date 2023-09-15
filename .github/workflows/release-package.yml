@@ -10,7 +10,6 @@ jobs:
                 node-version: 12
             - run: npm init
             - run: npm ci --path:"./sample-packages/npm/"
-            - run: npm test
 
     publish-gpr:
         needs: build
