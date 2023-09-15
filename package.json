@@ -1,11 +1,14 @@
 {
   "publishConfig": {
-    "@LUXDAVE:registry": "https://npm.pkg.github.com"
+    "@luxdave:registry": "https://npm.pkg.github.com"
   },
-  "name": "luxdave-pub-package-exercise",
+  "name": "@luxdave/luxdave-pub-package-exercise",
   "description": "This exercise checks your ability to publish to a GitHub Packages registry. It is automatically graded via a workflow once you have completed the instructions.",
   "version": "1.0.0",
-  "repository": "https://github.com/luxdave/exercise-publish-package.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luxdave/exercise-publish-package.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
